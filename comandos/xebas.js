@@ -1,4 +1,4 @@
-k/*
+/*
 Exportación de la función que se ejecuta al llamar al comando "ping".
 */
 module.exports = {
