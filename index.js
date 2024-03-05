@@ -13,7 +13,7 @@ const client = new Client({
   presence: {
     activities: [
       {
-        name: "con tus sentimientos",
+        name: "Gachapones con tus sentimientos",
         type: ActivityType.PLAYING,
       },
     ],
