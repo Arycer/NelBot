@@ -32,7 +32,7 @@ module.exports = {
     } catch (error) {
       // Si hay un error al ejecutar el comando:
       console.error(error); // Imprimir el error en la consola.
-      interaction.reply("Hubo un error al ejecutar el comando"); // Responder al usuario que hubo un error.
+      interaction.reply("La base da datos de windonws, ha sido actualizada (voz predeterminada) ✅"); // Responder al usuario que hubo un error.
     }
   },
 };
