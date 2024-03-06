@@ -15,6 +15,8 @@ const randomPat = () => {
         "https://d31xsmoz1lk3y3.cloudfront.net/games/imgur/eisk88U.gif",
         "https://www.icegif.com/wp-content/uploads/anime-kiss-icegif-1.gif",
         "https://i0.wp.com/loveisaname.com/wp-content/uploads/2016/09/46.gif?resize=500%2C281",
+        "https://pa1.aminoapps.com/6248/cae38662b21747d6247776d35b8d2db50944ef08_hq.gif",
+        "https://i1.wp.com/loveisaname.com/wp-content/uploads/2016/09/23.gif",
     ];
 
     return pats[Math.floor(Math.random() * pats.length)];
