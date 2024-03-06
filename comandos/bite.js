@@ -19,7 +19,7 @@ const randomPat = () => {
 }
 
 module.exports = {
-    name: 'pat',
+    name: 'bite',
     description: 'Envía una imagen al canal',
     execute: async function (interaction) {
         await interaction.reply(randomPat())
