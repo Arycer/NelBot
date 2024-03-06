@@ -13,6 +13,7 @@ const randomPat = () => {
         "https://i.gifer.com/B7bp.gif",
         "https://37.media.tumblr.com/f2a878657add13aa09a5e089378ec43d/tumblr_n5uovjOi931tp7433o1_500.gif",
         "https://i.gifer.com/Wjrj.gif",
+        "https://i0.wp.com/drunkenanimeblog.com/wp-content/uploads/2018/03/tenor.gif?resize=500%2C281&ssl=1",
     ];
 
     return pats[Math.floor(Math.random() * pats.length)];
