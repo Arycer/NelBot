@@ -13,6 +13,7 @@ const randomPat = () => {
         "https://gifdb.com/images/high/ayano-sugiura-anime-kiss-scene-zvx6dwc8h29t2hnw.gif",
         "https://i.pinimg.com/originals/8a/e6/59/8ae65928d806391c4fa5b8cbbb14e3d5.gif",
         "https://d31xsmoz1lk3y3.cloudfront.net/games/imgur/eisk88U.gif",
+        "https://www.icegif.com/wp-content/uploads/anime-kiss-icegif-1.gif",
     ];
 
     return pats[Math.floor(Math.random() * pats.length)];
