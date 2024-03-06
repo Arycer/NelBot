@@ -17,6 +17,7 @@ const randomPat = () => {
         "https://usagif.com/wp-content/uploads/gif/anime-hug-38.gif",
         "https://78.media.tumblr.com/88b9b721e47c33272a3cafd0fdb916b5/tumblr_oqkfe3BbYM1vb10byo1_500.gif",
         "https://gifdb.com/images/high/anime-hug-kin-iro-mosaic-pqmb9zeds4ikw3l0.gif",
+        "https://aniyuki.com/wp-content/uploads/2022/06/anime-hugs-aniyuki-13.gif",
     ];
 
     return pats[Math.floor(Math.random() * pats.length)];
