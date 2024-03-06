@@ -15,6 +15,7 @@ const randomPat = () => {
         "https://i.gifer.com/Wjrj.gif",
         "https://i0.wp.com/drunkenanimeblog.com/wp-content/uploads/2018/03/tenor.gif?resize=500%2C281&ssl=1",
         "https://usagif.com/wp-content/uploads/gif/anime-hug-38.gif",
+        "https://78.media.tumblr.com/88b9b721e47c33272a3cafd0fdb916b5/tumblr_oqkfe3BbYM1vb10byo1_500.gif",
     ];
 
     return pats[Math.floor(Math.random() * pats.length)];
