@@ -1,7 +1,7 @@
 const randomPat = () => {
     const pats = [
-        "",
-        "",
+        "https://www.icegif.com/wp-content/uploads/icegif-7034.gif",
+        "https://i.pinimg.com/originals/92/65/74/9265747cd10ebb8146c3b890fed00e11.gif",
         "",
         "",
         "",
