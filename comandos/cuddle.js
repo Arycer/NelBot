@@ -9,14 +9,15 @@ const randomPat = () => {
         "https://gifdb.com/images/high/animal-ears-boy-anime-cuddle-alfixpn3wj81ptsu.gif",
         "https://media1.tenor.com/m/moDYVLYRAkYAAAAC/hug-anime.gif",
         "https://media1.tenor.com/m/wZQ82apr3YMAAAAC/anime-cuddle.gif",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
+        "https://i.imgur.com/hwbfKwb.gif",
+        "https://i.pinimg.com/originals/6d/c1/bd/6dc1bdc35d41a0cbb094b0299af32d65.gif",
+        "https://i0.wp.com/drunkenanimeblog.com/wp-content/uploads/2017/10/snuggling-cuddling-anime-girls-gif.gif?resize=500%2C281&ssl=1",
+        "https://gifdb.com/images/high/anime-boy-wants-cuddle-v5awreez6ggjoznf.gif",
+        "https://media.tenor.com/bLttPccI_I4AAAAC/cuddle-anime.gif",
+        "https://media1.tenor.com/m/pERmpp-SSJ4AAAAC/eli-cuddle-anime.gif",
+        "https://media.tenor.com/A5ZuMAZ44l8AAAAC/anime-cuddle.gif",
+        "https://media.tenor.com/9TN_Wmmvh7sAAAAC/anime-cuddle.gif",
+        "https://media.tenor.com/8w4X8vAuWqEAAAAC/anime-cuddle.gif",
     ];
 
     return pats[Math.floor(Math.random() * pats.length)];
