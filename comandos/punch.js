@@ -1,6 +1,6 @@
 const randomPat = () => {
     const pats = [
-        "",
+        "https://i.gifer.com/1Ky5.gif",
         "",
         "",
         "",
