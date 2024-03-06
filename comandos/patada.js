@@ -12,6 +12,7 @@ const randomPat = () => {
         "https://i.pinimg.com/originals/a4/8e/6c/a48e6cb70a3822090500d42bc718c764.gif",
         "https://i.pinimg.com/originals/37/63/c6/3763c6bf76973174021a6b55aa77434a.gif",
         "https://i.gifer.com/C6OC.gif",
+        "https://i.pinimg.com/originals/57/bb/f4/57bbf4219cfe3cdb8a476c7d8104dc3e.gif",
         "https://gifdb.com/images/high/anime-fight-flying-kick-o4ddmhew9wwdpp5w.gif",
     ];
 
