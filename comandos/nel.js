@@ -14,7 +14,7 @@ const frases = [
   "\nNel: Ahora solo falta que vuelva Shaco\nEl Shaco vuelve a venir\nLA NEL EN CORTO:\nhttps://cdn.discordapp.com/attachments/1034588634764025897/1142320872900808744/shaco_1_online-video-cutter.com.mp4?ex=65fe60b7&is=65ebebb7&hm=aea15c52a01f9f57cd8ee651fcf71c730fd245265cced0232279ccc90648a2b2&",
   "\nNel: Me voy a cagar en sus muertos.\nSara: No te cagues en sus muertos porque hay un anime de un apocalipsis zombie que lo explica ",
   "\n4:50 am\nNel:\nhttps://cdn.discordapp.com/attachments/1034588634764025897/1135405075498537033/Picsart_23-07-31_04-50-36-403.jpg?ex=6600e760&is=65ee7260&hm=efa37bed5a4dd3ee872e49903359b9e5efbb6326e6f49f89ea19c4617e4c759c& \nhttps://cdn.discordapp.com/attachments/1034588634764025897/1135405242889031690/Picsart_23-07-31_04-54-54-494.jpg?ex=6600e788&is=65ee7288&hm=2a457cce729455920a737656082ba811eb767be3f172677f0f35868517eba34f&",
-  "",
+  "\nKevyn: Yo les conté que un jugador de valorant se suicidó, y hoy le hicieron un homenaje?\nNel: Entonces, Se suicidaron todos?",
   "",
   "",
   "",
