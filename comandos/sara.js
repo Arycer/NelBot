@@ -19,7 +19,7 @@ const frases = [
   "https://cdn.discordapp.com/attachments/1034588634764025897/1215833697601982605/image.png?ex=65fe305e&is=65ebbb5e&hm=7649f7c6313ec5ab0e8994d88a9865ff7e41bfb37ffba44bc1bf1497a9fd7740&",
   "\nEstudiante promedio de FP:\nhttps://cdn.discordapp.com/attachments/1034588634764025897/1178208130140745809/image.png?ex=65ffbc54&is=65ed4754&hm=df2220aa21f69ac16de5832d80b9d32b1a6c89fc61fcb9b3baee961a5c1204eb&",
   "100% Polyester",
-  "<@869197113374941225> y yo haciendo compras online:\nhttps://cdn.discordapp.com/attachments/1034588634764025897/1164646375829553152/image.png?ex=6605c4f6&is=65f34ff6&hm=3b8f266c61eba693cf2438a017c579c2b2a7cdc1c18021ad7eae537100ccd17c&\nNel: Eres tan lindoo",
+  "<@869197113374941225> haciendo compras online:\nhttps://cdn.discordapp.com/attachments/1034588634764025897/1164646375829553152/image.png?ex=6605c4f6&is=65f34ff6&hm=3b8f266c61eba693cf2438a017c579c2b2a7cdc1c18021ad7eae537100ccd17c&\nNel: Eres tan lindoo",
   "\nSara leyéndole el libro de filosofía a Nel\nSara: Has visto que filosófico es mi nuevo árbol polla?\n\n(Su justificación: Es que en la siguiente frase ponía polla)\nRealidad: Ponía árbol",
   "\nMy honest reaction:\nhttps://cdn.discordapp.com/attachments/1034588634764025897/1135399453319233666/Picsart_23-07-31_04-31-35-162.jpg?ex=6600e224&is=65ee6d24&hm=2fc03587eb6bc41a61c603ec3837f62d23676a944805676950a745391e4e9ccd&",
   "\nKevyn: Yo tengo una amiga que tiene cáncer y...\nSara: EN CUATRO ME LO MAMA",
