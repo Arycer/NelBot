@@ -1,8 +1,7 @@
 const frases = [
   "Cuando ni ChatGPT puede ayudarte, aparecen las verdaderas diosas del Olympo a ayudarte. Gracias por todo, te orare todos los años con arroz y una tarta de fresa 🍰",
-  "1",
-  "2",
-  "3",
+  "A mi me gusta jugar al LOL - Pau 2024 (nunca tuvo infancia jugando a los Arams)",
+  "🏳️‍⚧️",
 ]
 
 /*
