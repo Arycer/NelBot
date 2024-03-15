@@ -1,6 +1,6 @@
 const frases = [
   "Eres la segunda mejor diosa perfecta que existe por que la primera es Sara... por cierto... te tengo que llamar mama?? 🖤🖤",
-  "",
+  "Lo primero que pensé fue esto: A samu le gusta que se la metan",
   "",
   "",
   "",
