@@ -1,6 +1,6 @@
 const frases = [
   "Pregunta seria... cual sera el siguente cosplay?? ✨",
-  "",
+  "Yo tenía un amigo que se metió a derecho y ya no es mi amigo.",
   "",
   "",
   "",

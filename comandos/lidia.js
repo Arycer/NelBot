@@ -7,7 +7,7 @@ const frases = [
     "\nLidia hablando sobre que Kevyn de si era pakistani o no\nNel: Es colombiano no pakistani\nLidia: Peor\nNel: Oye lidia una duda, a ti tambien te tiro la caña Kevyn? es que no te lo pude preguntar en su tiempo y tengo la curiosidad\nLidia: No soy de pillar las indirectas de las cañas pero si se la tiro a todas pues...\nNel: Por regla de 3 también te la tiro a ti es lo que quieres decir???\nLidia: Si KEK\NNel: KEK",
     "\nLidia contando sobre ser reportera o repostera\nLidia: Pues la verdad los pavos que crearon el pan con tumaca son unos friquis",
     "\nYisus:Me intentas vender esa chica ?\nLidia: No, es rubia",
-    "",
+    "\nLidia: Me corto las venas?\nNel: Illo?, Se fue el Presidente de Mostoles?",
     "",
     "",
     "",

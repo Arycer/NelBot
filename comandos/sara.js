@@ -23,13 +23,21 @@ const frases = [
   "\nSara leyéndole el libro de filosofía a Nel\nSara: Has visto que filosófico es mi nuevo árbol polla?\n\n(Su justificación: Es que en la siguiente frase ponía polla)\nRealidad: Ponía árbol",
   "\nMy honest reaction:\nhttps://cdn.discordapp.com/attachments/1034588634764025897/1135399453319233666/Picsart_23-07-31_04-31-35-162.jpg?ex=6600e224&is=65ee6d24&hm=2fc03587eb6bc41a61c603ec3837f62d23676a944805676950a745391e4e9ccd&",
   "\nKevyn: Yo tengo una amiga que tiene cáncer y...\nSara: EN CUATRO ME LO MAMA",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
+  "https://cdn.discordapp.com/attachments/1034588634764025897/1115243179713773648/IMG-20230531-WA0005.jpg?ex=66016226&is=65eeed26&hm=1c07bb76674c61a198ef86be3503afae6f043e76ce72ea00671c1c3a8c8e9b54&",
+  "Tengo dislexia emocional",
+  "\nJugando a un juego de disparos\nSara: No dispares que me asusto",
+  "\nhttps://youtu.be/EP0nqKNDfPo\n NENE!!!",
+  "Arroz-",
+  "\nSara: Me voy a ahogar en sus tetas.\nKitty: Hazlo por mi.",
+  "\nKevyn: El agua tiene sabor?\nSara: El awa tiene sabor pero no tiene sabor\nKevyn: Khe?\nSara: El awa tiene sabor pero entre las awas",
+  "Me siento como el parabrisas de un coche",
+  "Pero ustedes habéis visto alguna vez un tronco.",
+  "Con hambre no puedo comer!!!",
+  "Ya me he metido todo el ketchup en los pantalones",
+  "\nSora: DELANTERO DEL RAIMON?!?1\nNel: DELANTERO DEL REAL BETI BALOMPIÉ\nSora: pues es portero, por la cara",
+  "Por una vez que se me da bien chupar.",
+  "Nel callate que no veo!!",
+  "\nTxebas: que tal sora como estas?\nSara: tu puta madre"
 
 ]
 

@@ -15,17 +15,20 @@ const frases = [
   "\nNel: Me voy a cagar en sus muertos.\nSara: No te cagues en sus muertos porque hay un anime de un apocalipsis zombie que lo explica ",
   "\n4:50 am\nNel:\nhttps://cdn.discordapp.com/attachments/1034588634764025897/1135405075498537033/Picsart_23-07-31_04-50-36-403.jpg?ex=6600e760&is=65ee7260&hm=efa37bed5a4dd3ee872e49903359b9e5efbb6326e6f49f89ea19c4617e4c759c& \nhttps://cdn.discordapp.com/attachments/1034588634764025897/1135405242889031690/Picsart_23-07-31_04-54-54-494.jpg?ex=6600e788&is=65ee7288&hm=2a457cce729455920a737656082ba811eb767be3f172677f0f35868517eba34f&",
   "\nKevyn: Yo les conté que un jugador de valorant se suicidó, y hoy le hicieron un homenaje?\nNel: Entonces, Se suicidaron todos?",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
+  "Ketty",
+  "\nSara, Kevyn y Nel viendo una serie\nKevyn: Que bonito es el cielo\nNel: Que cielo si están enfocando las montañas KEKW\NSara: KEKW\NKevyn se va de la llamada",
+  "\nNel: ¿ Tan difícil es encontrar una pareja mayor de edad (20 años) que no sea toxica, que no me manipule y que sea normal?\nKitty: Sí\nNel: Tu puta madre Kitty, yo solo quería algo de apoyo\nKitty: ¿Shashimi?\nNel: Sí.",
+  "\nhttps://youtu.be/EP0nqKNDfPo\n NENE!!!",
+  "Soñé que estábamos los de TLG jugando a la petanca.",
+  "\nLidia: Me corto las venas?\nNel: Illo?, Se fue el Presidente de Mostoles?",
+  "\nSora: DELANTERO DEL RAIMON?!?1\nNel: DELANTERO DEL REAL BETI BALOMPIÉ\nSora: pues es portero, por la cara",
+  "\nKevyn: espérate que no escucho nada\nNel: el teclado y los cascos son instrumentos diferentes, espera qué",
+  "Una se suicida y la otra le aplaude, de locos.",
+  "\nKevyn y sus paginas sugerentes....\nhttps://cdn.discordapp.com/attachments/1034588634764025897/1094044773515530312/image.png?ex=65fe1798&is=65eba298&hm=727704245f123578c9cdec9aac10431c80684e78fad740933253d6c76c585f9e&",
+  "\nNel: ¿Vas a hacer eso?\nSora: ¿El qué?\nNel: Lo del Shingenshin",
+  "Cría malvas y te sacarán los cuervos - Nel, bióloga.",
 
+  
 ]
 
 

@@ -16,7 +16,7 @@ const frases = [
   "Problemas técnicos:\nhttps://cdn.discordapp.com/attachments/1034588634764025897/1192615147102031962/quitaamelia.mp4?ex=66060168&is=65f38c68&hm=af6aff317411de8758bc9f8d6c94b0de70c97970b7fd97132becec70d3510615&",  
   "Concurso de perreo comentado por Nel, Michel y Yasuo\nhttps://cdn.discordapp.com/attachments/1034588634764025897/1192615578154844271/tegustaelregueton_-_Compressed_with_FlexClip.mp4?ex=660601cf&is=65f38ccf&hm=c37a0c0c18a50c9bee01978a781439f4ba889e6208d9adbb06ca602e571e8974&",
   "Y rojo de mierda lo volvio a hacer\nhttps://cdn.discordapp.com/attachments/1034588634764025897/1192615670207238185/rojo.mp4?ex=660601e5&is=65f38ce5&hm=eab28a0279dc19f094dad24b910f89cd426cc354d698b618bf8ba09bc0109350&",
- 
+  "A las 12:11 del domingo 30 de abril del 2023 se creó la democracia de TLG.",
 
 ]
 
