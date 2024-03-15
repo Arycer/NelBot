@@ -12,19 +12,6 @@ const frases = [
   "https://cdn.discordapp.com/attachments/1034588634764025897/1206069437053145138/Me_quiero_RENDIR_YAAAAAAAAAAAAAAAAA.mp4?ex=65ff94b1&is=65ed1fb1&hm=9608d99ac17b823ef47e21ad41e483a5eacf00ccc7818008564170a938761130&",
   "https://cdn.discordapp.com/attachments/1034588634764025897/1206069438223220756/Y_SERA_VERDAD_QUE_ME_VA_A_MATSDFAIUSGFUYASDFYASUDIFFSAF.mp4?ex=65ff94b1&is=65ed1fb1&hm=ecc3ba55229853db33edc33a689f794e08fdfd5817c706e600000a7896eb3f28&",
   "https://cdn.discordapp.com/attachments/1034588634764025897/1206069533291315241/Voy_0-5.mp4?ex=65ff94c8&is=65ed1fc8&hm=8c22073306e46b2761d112bd8d8d263c64d7af30642391d03ddf487d8c148c90&",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
 
 ]
 
