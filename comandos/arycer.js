@@ -1,6 +1,6 @@
 const frases = [
   "Todo bien Arycer? Como te va la vida? te defiendes como gato panza arriba?? 🐱‍👤 ",
-  "Samu: Michel hinca rodilla ya \nMichel: Pero era broma\nMiguel: Yo ya estoy desnudo, tú sabrás",
+  "\nSamu: Michel hinca rodilla ya \nMichel: Pero era broma\nMiguel: Yo ya estoy desnudo, tú sabrás",
  
 
 ]
