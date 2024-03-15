@@ -3,7 +3,7 @@ const frases = [
     "\nKevyn: Yo les conté que un jugador de valorant se suicidó, y hoy le hicieron un homenaje?\nNel: Entonces, Se suicidaron todos?",
     "NEL, no te voy a perdonar que te dije me voy a comer una avispa",
     "\nKevyn: Me quiero hacer ese corte de pelo\nNel: Pero si no tienes pelo\nKitty: Tiene mas pelo en los huevos que en la cabeza\nSara: Como un kiwi",
-    "\nSara, Kevyn y Nel viendo una serie\nKevyn: Que bonito es el cielo\nNel: Que cielo si están enfocando las montañas KEKW\NSara: KEKW\NKevyn se va de la llamada",
+    "\nSara, Kevyn y Nel viendo una serie\nKevyn: Que bonito es el cielo\nNel: Que cielo si están enfocando las montañas KEKW\nSara: KEKW\nKevyn se va de la llamada",
     "Tetas, me envias una foto de lidia?",
     "El culo es como el vino, se cata",
     "Yo por el tamaño de culo sé si alguien tiene depresión, es más, os voy a hacer una presentación",
