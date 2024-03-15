@@ -1,7 +1,7 @@
 const frases = [
   "Pero que haces pegandote cuerpo a cuerpo con el top??? JINX AML??? JINXXXXXXXXXX AMLLLL!! 🤬🤬",
   "¿Viene a Despeñaperros Harry Potter?",
-  "",
+  "\nNel: Como sigas así a los 22 te mueres.\nMiguel: Como Obama.",
   "",
   "",
   "",
