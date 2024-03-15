@@ -1,8 +1,8 @@
 const frases = [
-    "",
-    "",
-    "",
-    "",
+    "Yo me la he tragao en el cine y en tos lados. ",
+    "Pero con el dinero que me gasto en el psicólogo me lo puedo gastar en protogemas",
+    "https://cdn.discordapp.com/attachments/1034588634764025897/1140742399094685837/Picsart_23-08-14_22-22-49-269.jpg?ex=6601dd25&is=65ef6825&hm=bff803765c8027eb3b7c8c5db732deafc6dd5d3e0b2d24adc8c37d25cdbd23e7&",
+    "En el colegio sólo me enseñaron hacer mamadas",
     "",
     "",
     "",
