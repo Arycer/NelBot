@@ -37,7 +37,20 @@ const frases = [
   "\nSora: DELANTERO DEL RAIMON?!?1\nNel: DELANTERO DEL REAL BETI BALOMPIÉ\nSora: pues es portero, por la cara",
   "Por una vez que se me da bien chupar.",
   "Nel callate que no veo!!",
-  "\nTxebas: que tal sora como estas?\nSara: tu puta madre"
+  "\nTxebas: que tal sora como estas?\nSara: tu puta madre",
+  "\nSara: Coñooo!!\nNel: Ufff que ricoo\nKevyn: Pues la verdad es que antoja\nSara: Cada dia soy mas Asexual",
+  "https://cdn.discordapp.com/attachments/1034588634764025897/1078809000612745296/image.png?ex=65fe092d&is=65eb942d&hm=0164b4d4c4077dd1f876bf6d24cac810b7adccca4ee2d5ddff2ca93b24f24114&",
+  "Me he clavado un hueso en el culo",
+  "\nNel: Ve por donde sale el viento\nSara: Pero no veo el viento por que es transparente",
+  "Sáquenme de Movistar - Sara, harta de jugar al PlantasVsZombies.",
+  "\nNel: Ponle Kevyn al Pokémon.\nSara: No, porque es hembra. Le pega mejor Fregona.",
+  "Mi profesor de servicios en red huele muy bien - Sara ( demasiado bien).",
+  "\nNel: Sara yo te trato mal?\nSara: A veces\nNel: Como que a veces?\nSara: Cuando me sacas el látigo.",
+  "Chi",
+  "La virgen como chupa",
+  "No hay que matarla, como la mates no podemos jugar al Croquet",
+  "No seré bizco pero soy tonto - Sara Fernández, residente de las 3000 Viviendas",
+  
 
 ]
 

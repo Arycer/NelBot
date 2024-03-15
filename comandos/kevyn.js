@@ -24,6 +24,19 @@ const frases = [
     "\nPapa de Kevyn: Kevyn.\nKevyn: Dime dime dimeee\nPapa de Kevyn: Yo.. Soy.. tu padre.",
     "\nKevyn: UOO, HAY UN TERMÓMETRO DE CALENTURA.\nNel: Como de calentura?¿\nKevyn: ¿Un termostato no?",
     "\nKevyn y sus paginas sugerentes....\nhttps://cdn.discordapp.com/attachments/1034588634764025897/1094044773515530312/image.png?ex=65fe1798&is=65eba298&hm=727704245f123578c9cdec9aac10431c80684e78fad740933253d6c76c585f9e&",
+    "\nKevyn: Alguien tiene sheriff?\nNel: Kevyn metete la sheriff por el culo.\nSara: Yo",
+    "\nSara: Coñooo!!\nNel: Ufff que ricoo\nKevyn: Pues la verdad es que antoja\nSara: Cada dia soy mas Asexual",
+    "\nLidia: Pero Kevyn... tu tienes tetas???\nKevyn: NO TE PUEDO CREER QUE EL PHEONIX SE HAYA HECHO UN ACEE!!!!",
+    "\nLidia: Que es una teta?\nKevyn: Te la enseño?",
+    "\nKevyn: Soy lesbiano\nNel: Dirás gay no?\nKevyn: Si eso, espera que?",
+    "\nKevyn: A ustedes les gustaria una relacion abierta?\nNel: Joder, esque el Genshin me sube el estado de animo",
+    "\nNel: Se cierra rápido como el culo de Kevyn KEKW\nKevyn: Reacción Elemental Torbellino. Cuando Anemo entra en contacto con ciertos elementos, puede activar la reacción de Torbellino. Esta reacción puede causar Daño Elemental correspondiente con el elemento infundido en ella, así como activar otra reacción...",
+    "\nNel: A que día de la semana estamos?\nKevyn: A 7",
+    "La madre de Kevyn tiene el TLauncher",
+    "\nNel: ¿Estás bien, tienes fiebre?\nKevyn: Fiebre de la spike?¿?¿",
+    "Quien aguante pierde - Kevyn, creador de juegos desde 2005.",
+    "\nNel: yo tuve una ex que me amenazaba con suicidarse si la dejaba y cuando la dejé se tiró de un tercer piso.\nKevyn: Joder, que buena partida.",
+
 
   ]
   

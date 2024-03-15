@@ -27,8 +27,24 @@ const frases = [
   "\nKevyn y sus paginas sugerentes....\nhttps://cdn.discordapp.com/attachments/1034588634764025897/1094044773515530312/image.png?ex=65fe1798&is=65eba298&hm=727704245f123578c9cdec9aac10431c80684e78fad740933253d6c76c585f9e&",
   "\nNel: ¿Vas a hacer eso?\nSora: ¿El qué?\nNel: Lo del Shingenshin",
   "Cría malvas y te sacarán los cuervos - Nel, bióloga.",
-
+  "\nKevyn: Alguien tiene sheriff?\nNel: Kevyn metete la sheriff por el culo.\nSara: Yo",
+  "\nSara: Coñooo!!\nNel: Ufff que ricoo\nKevyn: Pues la verdad es que antoja\nSara: Cada dia soy mas Asexual",
+  "\nKevyn: Soy lesbiano\nNel: Dirás gay no?\nKevyn: Si eso, espera que?",
+  "Ojalá te atragantes con los huevos",
+  "Ahora me desputeo",
+  "\nKevyn: A ustedes les gustaria una relacion abierta?\nNel: Joder, esque el Genshin me sube el estado de animo",
+  "Se cierra rápido como el culo de Kevyn KEKW",
+  "\nNel: el gato escupiendo una bola de pelos GRUAAGHESWS\nSara: ℱ𝒶𝓉𝒶𝓁𝒾𝓉𝓎.",
+  "Me cago en los triángulos - Nel, 22 años. No le va mucho la geometría.",
+  "\nSara: TÍO QUE TENGO ALGO EN LA GARGANTA Y NO SE QUE ES\nNel: La campanilla.",
+  "Esto ya se pasa de castaño a extremo - Nel, Técnica en colorimetría y en extremos.",
+  "\nSara: Hay veces que me siento linda y otras veces no tanto\nNel: BUAH, ME LÍO UN PORRO COMO MARTIN BUTAGREÑO",
+  "Para que tener amigos, ten enemigos",
+  "No quiero que vuelvas, no quiero jugar al lol",
+  "Chi",
+  "Puedo ser bizco pero no tonto - Nel Sánche del Polígono 14",
   
+
 ]
 
 

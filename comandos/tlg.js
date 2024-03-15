@@ -17,6 +17,10 @@ const frases = [
   "Concurso de perreo comentado por Nel, Michel y Yasuo\nhttps://cdn.discordapp.com/attachments/1034588634764025897/1192615578154844271/tegustaelregueton_-_Compressed_with_FlexClip.mp4?ex=660601cf&is=65f38ccf&hm=c37a0c0c18a50c9bee01978a781439f4ba889e6208d9adbb06ca602e571e8974&",
   "Y rojo de mierda lo volvio a hacer\nhttps://cdn.discordapp.com/attachments/1034588634764025897/1192615670207238185/rojo.mp4?ex=660601e5&is=65f38ce5&hm=eab28a0279dc19f094dad24b910f89cd426cc354d698b618bf8ba09bc0109350&",
   "A las 12:11 del domingo 30 de abril del 2023 se creó la democracia de TLG.",
+  "Día 25/10/2022\nBorramos toda nuestra identidad alcanzable por Borja, cuyos antepasados se rumorean ser asesinos seriales. Me mudé a Nueva Zelanda con Neko y Kitty en busca de refugio. Aún así Kitty fue alcanzada por las manipulaciones de (el pedófilo, narcisista, manipulador, acomplejado de pito pequeño y gilipollas ) Borja, desgraciadamente. A día de hoy seguimos huyendo, no sabemos cuanto duraremos. Hemos observado hacia que dirección fluye el viento y hemos llegado a la conclusión de que Kitty acabó vacilando a nuestro archienemigo. Rezamos por que nuestra nueva esclava de confianza regrese sana y salva, y por volver a nuestra vida de pro-players de Valorant. Amén.\nFirmado : Shayrahs (SÍ, Soy Bi).",
+  "Día 03/12/2022\nEncontramos un nuevo sujeto de práctica, el cual tiene un perro colombiano bastante lindo. Es jugador de Valorant, pero todavía le falta mucho para estar a nuestra altura. Lo tenemos como mascota recluido en un sótano y sus amigos reclamaron su ausencia. Utilizamos nuestros dotes de actuación máximos para distraerlos y poder jugar un ratito con él a escondidas. No sabemos cuanto durará nuestra coartada, sin embargo mereció la pena pues nos convertimos en main jett con operator ronda 3.\nAtte: Shayrahs (Sí, Soy Sage).",
+
+
 
 ]
 

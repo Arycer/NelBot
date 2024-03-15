@@ -17,26 +17,9 @@ const frases = [
   "\nBiyin hablando sobre su tatuaje de Jagger\nKitty: Me representa porque tengo los mismos cuernos.",
   "\nNel: Que te pasa hoy con los Pakistanis que te burlas de ellos con Kevyn?\nKitty: Es que me hacen gracia KEKW",
   "\nKitty: NO ENTIENDO EL LORE\nNel: ¿Qué lore?\nKitty: ESPÉRATE QUE ESTOY PEGANDO",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
+  "\nSara: hablando de la película de Avatar\nKitty: quiero que me conecten su cola",
+  
+
 ]
 
 

@@ -8,26 +8,12 @@ const frases = [
     "\nLidia contando sobre ser reportera o repostera\nLidia: Pues la verdad los pavos que crearon el pan con tumaca son unos friquis",
     "\nYisus:Me intentas vender esa chica ?\nLidia: No, es rubia",
     "\nLidia: Me corto las venas?\nNel: Illo?, Se fue el Presidente de Mostoles?",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
+    "\nLidia: Pero Kevyn... tu tienes tetas???\nKevyn: NO TE PUEDO CREER QUE EL PHEONIX SE HAYA HECHO UN ACEE!!!!",
+    "\nLidia: Que es una teta?\nKevyn: Te la enseño?",
+    "En verdar Hitler era atractivo, sin bigote - Lidia, la menos nazi.",
+    "\nSara: ¿Es lesbiana?\nLidia: Hmmm, creo que era libra",
+ 
+    
   ]
   
   
