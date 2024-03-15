@@ -15,7 +15,7 @@ const frases = [
   "\nSara: No paran de salirme anuncios guarros en AnimeFLV\nNel: Hay un chochito cerca de tu zona\nSamu: No sabes lo solo que estoy Marta",
   "\nSara: Yo, me miro al espejo y pienso Joder, en verdad tengo toa la cara de un Stitch\nMichel: ❓",
   "\nSara: Alguna vez habéis probado un nabo?\nSergio: A mi me encanta los nabos\nSara: Yo si me he comido un nabo, lo hice sin darme cuenta\nNel: Madre mía, esto se va para el lore que flipas",
-  "",
+  "\nSara: CREEEEO QUE EMPIEZO A ENTENDER , NOHAYEXCUSA NOHAYEXCUSA NOHAYEXCUSA\nNel: ¿Qué estas cantando?\nSara: La de Shakira\nNel: ¿Estas segura que es asi?\nSara: Sí, mira\nLa cancion en cuestion:\nhttps://cdn.discordapp.com/attachments/1034588634764025897/1162168303897296967/2023-10-13_01-18-12.mp4?ex=6605fb93&is=65f38693&hm=17b4a1f9d31c3aa19752525cefad35f7f2186b760f0d12fc3a53f4b9d98efb87&",
   "",
   "",
   "",
