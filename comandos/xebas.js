@@ -6,7 +6,7 @@ const frases = [
   "https://cdn.discordapp.com/attachments/1034588634764025897/1164362587035672617/canigo.PNG?ex=6604bca9&is=65f247a9&hm=7f2ad9fcb423417ea31955462f3bc23ced4678ef7d05750fac9dd3474eaa86ea&",
   "\nNel: txebas ¿ si pudieras ser un pez cual serias?\nTxebas: ... un pezon",
   "Mirar la foto de alguien y que te den ganas de cagar... - Txebas",
-
+  "\nSara: Txebas\nTxebas: Yo\nSara: Un lol?¿\nTxebas: ¿Un piquito?\nSara: No Txebas, un lol\nTxebas: Un lol y un piquito",
 
 ]
 
