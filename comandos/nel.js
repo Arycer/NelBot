@@ -43,6 +43,7 @@ const frases = [
   "No quiero que vuelvas, no quiero jugar al lol",
   "Chi",
   "Puedo ser bizco pero no tonto - Nel Sánche del Polígono 14",
+  "Joder, el negro vuelve a dar oro.",
   
 
 ]

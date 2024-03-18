@@ -50,6 +50,7 @@ const frases = [
   "La virgen como chupa",
   "No hay que matarla, como la mates no podemos jugar al Croquet",
   "No seré bizco pero soy tonto - Sara Fernández, residente de las 3000 Viviendas",
+  "Aquí vi a un señor con muchos piercings pero con pocos brazos, en plan, era manco.",
   
 
 ]

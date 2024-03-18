@@ -12,7 +12,8 @@ const frases = [
     "\nLidia: Que es una teta?\nKevyn: Te la enseño?",
     "En verdar Hitler era atractivo, sin bigote - Lidia, la menos nazi.",
     "\nSara: ¿Es lesbiana?\nLidia: Hmmm, creo que era libra",
- 
+    
+    
     
   ]
   
