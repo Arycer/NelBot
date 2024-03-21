@@ -1,7 +1,7 @@
 const frases = [
     "\nDoritos siendo abstemia\nhttps://cdn.discordapp.com/attachments/1016438591309762581/1220437403433566349/IMG_20240321_192150.jpg?ex=660eefe7&is=65fc7ae7&hm=1b61394bbe614fe2b3ba0d18ef9c0e649f7fc96b1ba55e0f5d9af493ef34c1a3&",
-    
-   
+    "Madre mia que culo",
+
   
   ]
   
