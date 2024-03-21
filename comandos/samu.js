@@ -5,7 +5,7 @@ const frases = [
   "\nNel: No puedo sentir pena por alguien inferior a mi\nSamu: NO TIO, el brazo izquierdo me vuelve a bailar",
   "A Samu le falta 3 dedos y por ende su cancion favorita es esta: https://www.youtube.com/watch?v=YsDPoDclP6k&ab_channel=LeonelAlv",
   "No sabes lo solo que estoy Marta ",
-  
+  "No para de dolerme el culo.",
  
 
 ]
