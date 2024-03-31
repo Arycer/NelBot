@@ -44,6 +44,8 @@ const frases = [
   "Chi",
   "Puedo ser bizco pero no tonto - Nel Sánche del Polígono 14",
   "Joder, el negro vuelve a dar oro.",
+  "\nSamu: Mañana es tu cumple nell.\nNell: Lo se, mañana metere 100€ al honkai.",
+  "\n**Actualización del Honkai Star Rail**\nhttps://cdn.discordapp.com/attachments/1034588634764025897/1222629553147613285/image.png?ex=6616e980&is=66047480&hm=c5332d3f11fbf0501a472f0d6dcfa15ba6e3919d63fdc5461269a212b1e2d900&",
   
 
 ]

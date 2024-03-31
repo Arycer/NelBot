@@ -53,6 +53,9 @@ const frases = [
   "Aquí vi a un señor con muchos piercings pero con pocos brazos, en plan, era manco.",
   "No soy homófoba, pero a mi que no se me acerquen ni judíos, gitanos, afrodescendientes, indígenas americanos, aborígenes australianos, maoríes, pueblos indígenas de Canadá, mayas, aztecas, zapotecas, mixtecos, quechuas, aymaras, mapuches, guaraníes, tibetanos, uigures, rohingyas, kurdos, armenios, tamiles, palestinos, chechenos, hazaras, baluchis, pashtunes, tutsis, hutus,nigerianos,beréberes, bantúes, dalits, yazidíes, assyrios, coptos, kurdistán iraquí, hmong, ashkenazíes, romaníes, sinti, pueblos indígenas de Laponia, chinos, ucranianos , bielorrusos, rusos , estonios, letones , lituanos, armenios, georgios, circasianos, rohingya, karen, nons, shan, karreni ,kachin, karen, rohingya, dinka, nuer, bari, zande, maasai,t uareg, amazigh .",
   "No para de dolerte la boca de comer pitos.",
+  "Tio nacho levántate.",
+  "Sara llorando: Soy un pimpollo. Un pimpollo de Maokai.",
+  "La maleta mide bien y pesa mejor.",
 
 ]
 

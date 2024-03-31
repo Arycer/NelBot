@@ -1,6 +1,6 @@
 const frases = [
   "Todos te queremos deja de morirte gracias ❤❤ ",
-  
+  "Iratxe: Mejor nunca que tarde.",
 
 ]
 
