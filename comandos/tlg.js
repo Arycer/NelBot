@@ -21,7 +21,7 @@ const frases = [
   "Día 03/12/2022\nEncontramos un nuevo sujeto de práctica, el cual tiene un perro colombiano bastante lindo. Es jugador de Valorant, pero todavía le falta mucho para estar a nuestra altura. Lo tenemos como mascota recluido en un sótano y sus amigos reclamaron su ausencia. Utilizamos nuestros dotes de actuación máximos para distraerlos y poder jugar un ratito con él a escondidas. No sabemos cuanto durará nuestra coartada, sin embargo mereció la pena pues nos convertimos en main jett con operator ronda 3.\nAtte: Shayrahs (Sí, Soy Sage).",
   "Himno de TLG\n https://www.youtube.com/watch?v=LWuTgAAvDxI&ab_channel=Luis! ",
   "100 x 100",
-  
+  "Nel: Samu no vuelvas, vete.\nSamu: Vale\n**Se va**\nTxebas: Y ahora yo que hago?\nNel: Pues vete tú también\n**Se va también**\nIratxe: Y ahora yo que hago?\nNel: NO TU YA NO TE VAYAS",
 
 
 ]
