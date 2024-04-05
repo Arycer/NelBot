@@ -56,6 +56,10 @@ const frases = [
   "Tio nacho levántate.",
   "Sara llorando: Soy un pimpollo. Un pimpollo de Maokai.",
   "La maleta mide bien y pesa mejor.",
+  "QUITARMELO DEL MEDIOOO!!! Un negro me está siguiendo",
+  "Chicos, no me gusta jugar a la ruleta. Solo puedes apostar al rojo o al negro, y ninguno de los dos me gusta.",
+  "Me gustan los palestinos, me recuerdan al PetaZeta.",
+  
 
 ]
 

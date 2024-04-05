@@ -36,7 +36,7 @@ const frases = [
     "\nNel: ¿Estás bien, tienes fiebre?\nKevyn: Fiebre de la spike?¿?¿",
     "Quien aguante pierde - Kevyn, creador de juegos desde 2005.",
     "\nNel: yo tuve una ex que me amenazaba con suicidarse si la dejaba y cuando la dejé se tiró de un tercer piso.\nKevyn: Joder, que buena partida.",
-
+    "Me mordieron el culo.",
 
   ]
   

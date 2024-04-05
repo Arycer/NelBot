@@ -6,7 +6,8 @@ const frases = [
   "A Samu le falta 3 dedos y por ende su cancion favorita es esta: https://www.youtube.com/watch?v=YsDPoDclP6k&ab_channel=LeonelAlv",
   "No sabes lo solo que estoy Marta ",
   "No para de dolerme el culo.",
- 
+  "Sabes lo mejor de ser viernes? Que salgo a la calle para patear a los negros.",
+  
 
 ]
 
