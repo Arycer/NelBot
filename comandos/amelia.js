@@ -12,7 +12,7 @@ const frases = [
 Exportación de la función que se ejecuta al llamar al comando "ping".
 */
 module.exports = {
-    name: "manu",
+    name: "amelia",
     description: "Main Femboy?",
     execute: async function (interaction) {
       await interaction.reply("<@478195015680655404> " + frases[Math.floor(Math.random() * frases.length)]
