@@ -16,7 +16,7 @@ const frases = [
   "\n4:50 am\nNel:\nhttps://cdn.discordapp.com/attachments/1034588634764025897/1135405075498537033/Picsart_23-07-31_04-50-36-403.jpg?ex=6600e760&is=65ee7260&hm=efa37bed5a4dd3ee872e49903359b9e5efbb6326e6f49f89ea19c4617e4c759c& \nhttps://cdn.discordapp.com/attachments/1034588634764025897/1135405242889031690/Picsart_23-07-31_04-54-54-494.jpg?ex=6600e788&is=65ee7288&hm=2a457cce729455920a737656082ba811eb767be3f172677f0f35868517eba34f&",
   "\nKevyn: Yo les conté que un jugador de valorant se suicidó, y hoy le hicieron un homenaje?\nNel: Entonces, Se suicidaron todos?",
   "Ketty",
-  "\nSara, Kevyn y Nel viendo una serie\nKevyn: Que bonito es el cielo\nNel: Que cielo si están enfocando las montañas KEKW\NSara: KEKW\NKevyn se va de la llamada",
+  "\nSara, Kevyn y Nel viendo una serie\nKevyn: Que bonito es el cielo\nNel: Que cielo si están enfocando las montañas KEKW\nSara: KEKW\nKevyn se va de la llamada",
   "\nNel: ¿ Tan difícil es encontrar una pareja mayor de edad (20 años) que no sea toxica, que no me manipule y que sea normal?\nKitty: Sí\nNel: Tu puta madre Kitty, yo solo quería algo de apoyo\nKitty: ¿Shashimi?\nNel: Sí.",
   "\nhttps://youtu.be/EP0nqKNDfPo\n NENE!!!",
   "Soñé que estábamos los de TLG jugando a la petanca.",
