@@ -1,3 +1,6 @@
+const { SlashCommandBuilder, EmbedBuilder } = require('discord.js');
+const { data } = require('./tlg');
+
 const frases = [
   "TLG fue creado un dia tonto donde eramos todas inocentes pero con el paso del tiempo se convirtio en algo mas importante. TLG con el significado principal que es The Lost Generation paso a ser llamado de broma como Tanga de Leopardo Gigante para hacer la gracia, pero con el paso del tiempo se empezo llamar de otro modo donde nos identifica mejor.... su nombre es Trans+Lesbi+Gay. ",
   "https://cdn.discordapp.com/attachments/1034588634764025897/1152084748139773982/PicoPark_online-video-cutter.com.mp4?ex=66063688&is=65f3c188&hm=5c8c80f1eefa24aac0476656d1b598bd7b7704f0063b7f31805096c137125aee&",
@@ -31,11 +34,19 @@ const frases = [
 /*
 Exportación de la función que se ejecuta al llamar al comando "ping".
 */
+
 module.exports = {
-    name: "tlg",
-    description: "Nombre del grupo y significado",
-    execute: async function (interaction) {
-      await interaction.reply(" " + frases[Math.floor(Math.random() * frases.length)]
-      ); // Responder con un mensaje al usuario.
-  },
+  data: new SlashCommandBuilder()
+    .setName("tlg")
+    .setDescription("Cositas del Servidor."),
+  execute: async function (interaction) {
+    const embed = new EmbedBuilder()
+      .setTitle("Frases del lore del Server")
+      .setDescription(frases[Math.floor(Math.random() * frases.length)])
+      .setColor("#ffb7c5")
+      .setTimestamp();
+
+    await interaction.reply({ embeds: [embed] }); // Responder con un mensaje al usuario.
+},
 };
+
