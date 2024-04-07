@@ -21,7 +21,7 @@ module.exports = {
       const embed = new EmbedBuilder()
         .setTitle("Frases del lore de Arycer")
         .setDescription(frases[Math.floor(Math.random() * frases.length)])
-        .setColor("#FF0000")
+        .setColor("0xffb7c5")
         .setTimestamp();
 
       await interaction.reply({ embeds: [embed] }); // Responder con un mensaje al usuario.
