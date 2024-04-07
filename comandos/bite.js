@@ -55,3 +55,4 @@ module.exports = {
         .catch(error => console.error('Error al enviar la imagen:', error));
       },
   };
+  

@@ -27,3 +27,4 @@ module.exports = {
       await interaction.reply({ embeds: [embed] }); // Responder con un mensaje al usuario.
   },
 };
+
