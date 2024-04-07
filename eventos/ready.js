@@ -1,5 +1,5 @@
-const { readdirSync } = require("fs");
-const { join } = require("path");
+const { REST, Routes } = require('discord.js');
+require("dotenv").config();
 
 /*
 Exportación de la función que maneja el inicio del bot.
@@ -16,15 +16,23 @@ module.exports = {
     Iteración sobre los archivos de comandos para cargarlos en la lista.
     */
     for (const comando of client.commands) {
-      // Por cada comando en la lista de comandos, se agrega a la lista de comandos de Discord.
-      commands.push({
-        name: comando.name,
-        description: comando.description,
-        options: comando.options,
-      });
+      commands.push(comando.data.toJSON()); // Se añade el comando a la lista de comandos.
     }
 
-    // Se establecen los comandos en Discord.
-    client.application.commands.set(commands);
+    const rest = new REST().setToken(process.env.TOKEN); // Creación de un objeto REST con el token del bot.
+
+    (async () => {
+      try {
+        console.log(`Started refreshing ${commands.length} application (/) commands.`);
+        const data = await rest.put(
+          Routes.applicationCommands(process.env.CLIENT_ID),
+          { body: commands },
+        );
+    
+        console.log(`Successfully reloaded ${data.length} application (/) commands.`);
+      } catch (error) {
+        console.error(error);
+      }
+    })();
   },
 };

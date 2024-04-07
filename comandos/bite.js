@@ -1,3 +1,5 @@
+const { SlashCommandBuilder, EmbedBuilder } = require('discord.js');
+
 const randomPat = () => {
     const pats = [
         "https://media1.tenor.com/m/fjyhsh9lKEAAAAAC/bite-anime.gif",
@@ -19,10 +21,36 @@ const randomPat = () => {
 }
 
 module.exports = {
-    name: 'bite',
-    description: 'Envía una imagen al canal',
+    data: new SlashCommandBuilder()
+        .setName('bite')
+        .setDescription('Envía una imagen al canal')
+        .addUserOption(option =>
+            option.setName('usuario')
+                .setDescription('Usuario al que quieres morder')
+                .setRequired(true)
+            ),
+
     execute: async function (interaction) {
-        await interaction.reply(randomPat())
+        var usuario = interaction.user;
+        var usuarioMencionado = interaction.options.getUser('usuario');
+
+        var objetoUsuario = interaction.client.database.get(usuario.id);
+        if (!objetoUsuario) objetoUsuario = interaction.client.database.create(usuario.id, {
+            globalName: usuario.globalName,
+            mordeduras: {}
+        });
+        if (!objetoUsuario.mordeduras) objetoUsuario.mordeduras = {};
+
+        objetoUsuario.mordeduras[usuarioMencionado.id] = objetoUsuario.mordeduras[usuarioMencionado.id] ? objetoUsuario.mordeduras[usuarioMencionado.id] + 1 : 1;
+        objetoUsuario.save();
+
+        const embed = new EmbedBuilder()
+            .setTitle(`**${usuario.globalName}** ha mordido a **${usuarioMencionado.globalName}**`)
+            .setDescription(`${usuario.globalName} ha mordido ${objetoUsuario.mordeduras[usuarioMencionado.id]} veces a ${usuarioMencionado.globalName}`)
+            .setImage(randomPat())
+            .setColor(0xffb7c5);
+
+        await interaction.reply({ embeds: [embed] })
         .then(() => console.log('Imagen enviada correctamente'))
         .catch(error => console.error('Error al enviar la imagen:', error));
       },

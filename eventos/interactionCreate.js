@@ -14,7 +14,7 @@ module.exports = {
     */
     const nombreComando = interaction.commandName; // Nombre del comando.
     const comando = client.commands.find(
-      (comando) => comando.name === nombreComando, // Buscar el comando con el nombre correspondiente.
+      (comando) => comando.data.name === nombreComando, // Buscar el comando con el nombre correspondiente.
     );
 
     if (!comando) {

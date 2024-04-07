@@ -1,3 +1,6 @@
+const { SlashCommandBuilder, EmbedBuilder } = require('discord.js');
+const { data } = require('./amelia');
+
 const frases = [
   "Todo bien Arycer? Como te va la vida? te defiendes como gato panza arriba?? 🐱‍👤 ",
   "\nSamu: Michel hinca rodilla ya \nMichel: Pero era broma\nMiguel: Yo ya estoy desnudo, tú sabrás",
@@ -11,10 +14,16 @@ Exportación de la función que se ejecuta al llamar al comando "ping".
 */
 
 module.exports = {
-    name: "arycer",
-    description: "Es Michel o Micheeel??",
+    data: new SlashCommandBuilder()
+      .setName("arycer")
+      .setDescription("Es Michel o Micheeel??"),
     execute: async function (interaction) {
-      await interaction.reply("<@361147515673903116> " + frases[Math.floor(Math.random() * frases.length)]
-      ); // Responder con un mensaje al usuario.
+      const embed = new EmbedBuilder()
+        .setTitle("Arycer")
+        .setDescription(frases[Math.floor(Math.random() * frases.length)])
+        .setColor("#FF0000")
+        .setTimestamp();
+
+      await interaction.reply({ embeds: [embed] }); // Responder con un mensaje al usuario.
   },
 };

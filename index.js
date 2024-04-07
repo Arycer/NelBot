@@ -1,6 +1,7 @@
 const { Client, ActivityType } = require("discord.js");
 const { readdirSync } = require("fs");
 const { join } = require("path");
+const MeowDB = require("meowdb");
 const ALL_INTENTS = 8;
 require("dotenv").config();
 
@@ -19,6 +20,11 @@ const client = new Client({
     ],
     status: "online",
   },
+});
+
+client.database = new MeowDB({
+  dir: __dirname,
+  name: "database",
 });
 
 /*
@@ -41,8 +47,7 @@ for (const archivo of archivosComandos) {
   const comando = require(archivoRuta); // Se carga el archivo como un módulo.
   client.commands.push({
     // Se agrega el comando a la lista de comandos.
-    name: comando.name,
-    description: comando.description,
+    data: comando.data,
     execute: comando.execute,
   });
 }
