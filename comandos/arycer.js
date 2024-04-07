@@ -1,5 +1,5 @@
 const { SlashCommandBuilder, EmbedBuilder } = require('discord.js');
-const { data } = require('./amelia');
+const { data } = require('./arycer');
 
 const frases = [
   "Todo bien Arycer? Como te va la vida? te defiendes como gato panza arriba?? 🐱‍👤 ",
