@@ -1,3 +1,6 @@
+const { SlashCommandBuilder, EmbedBuilder } = require('discord.js');
+const { data } = require('./kitty');
+
 const frases = [
   "Loco vamos 0/5, 0/5, 2/3, tu de verdad te crees que yo doy algo de oro?, TU DE VERDAD, SE TE PASA EN LA CABEZA?? QUE DOY ORO!!?? 🤬😡🤬",
   "Pero tu te escuchas cuando hablo brother?",
@@ -26,11 +29,19 @@ const frases = [
 /*
 Exportación de la función que se ejecuta al llamar al comando "ping".
 */
+
 module.exports = {
-    name: "kitty",
-    description: "Kitty en ranked",
-    execute: async function (interaction) {
-      await interaction.reply("<@654388064998653958> " + frases[Math.floor(Math.random() * frases.length)]
-      ); // Responder con un mensaje al usuario.
-  },
+  data: new SlashCommandBuilder()
+    .setName("kitty")
+    .setDescription("La más tóxica del mundo??"),
+  execute: async function (interaction) {
+    const embed = new EmbedBuilder()
+      .setTitle("Frases del lore de Kitty")
+      .setDescription(frases[Math.floor(Math.random() * frases.length)])
+      .setColor("#ffb7c5")
+      .setTimestamp();
+
+    await interaction.reply({ embeds: [embed] }); // Responder con un mensaje al usuario.
+},
 };
+

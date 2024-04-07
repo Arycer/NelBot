@@ -1,3 +1,6 @@
+const { SlashCommandBuilder, EmbedBuilder } = require('discord.js');
+const { data } = require('./lidia');
+
 const frases = [
     "Yo me la he tragao en el cine y en tos lados. ",
     "\nSamu: La solución buena es ir al psicólogo.\nLidia:Pero con el dinero que me gasto en el psicólogo me lo puedo gastar en protogemas",
@@ -21,12 +24,19 @@ const frases = [
   /*
   Exportación de la función que se ejecuta al llamar al comando "ping".
   */
-  module.exports = {
-      name: "lidia",
-      description: "???",
-      execute: async function (interaction) {
-        await interaction.reply("<@1009926423055700018> " + frases[Math.floor(Math.random() * frases.length)]
-        ); // Responder con un mensaje al usuario.
-    },
-  };
   
+module.exports = {
+  data: new SlashCommandBuilder()
+    .setName("lidia")
+    .setDescription("La más random del mundo."),
+  execute: async function (interaction) {
+    const embed = new EmbedBuilder()
+      .setTitle("Frases del lore de Lidia")
+      .setDescription(frases[Math.floor(Math.random() * frases.length)])
+      .setColor("#ffb7c5")
+      .setTimestamp();
+
+    await interaction.reply({ embeds: [embed] }); // Responder con un mensaje al usuario.
+},
+};
+

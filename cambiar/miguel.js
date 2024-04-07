@@ -1,3 +1,6 @@
+const { SlashCommandBuilder, EmbedBuilder } = require('discord.js');
+const { data } = require('./miguel');
+
 const frases = [
   "Pero que haces pegandote cuerpo a cuerpo con el top??? JINX AML??? JINXXXXXXXXXX AMLLLL!! 🤬🤬",
   "¿Viene a Despeñaperros Harry Potter?",
@@ -11,11 +14,19 @@ const frases = [
 /*
 Exportación de la función que se ejecuta al llamar al comando "ping".
 */
+
 module.exports = {
-    name: "miguel",
-    description: "Jinx top",
-    execute: async function (interaction) {
-      await interaction.reply("<@142331963007565824> " + frases[Math.floor(Math.random() * frases.length)]
-      ); // Responder con un mensaje al usuario.
-  },
+  data: new SlashCommandBuilder()
+    .setName("miguel")
+    .setDescription("OTP Jinx."),
+  execute: async function (interaction) {
+    const embed = new EmbedBuilder()
+      .setTitle("Frases del lore de Miguel")
+      .setDescription(frases[Math.floor(Math.random() * frases.length)])
+      .setColor("#ffb7c5")
+      .setTimestamp();
+
+    await interaction.reply({ embeds: [embed] }); // Responder con un mensaje al usuario.
+},
 };
+

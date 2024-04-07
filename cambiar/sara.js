@@ -1,3 +1,6 @@
+const { SlashCommandBuilder, EmbedBuilder } = require('discord.js');
+const { data } = require('./sara');
+
 const frases = [
   "Eres la más hermosa, inteligente, maravillosa y perfecta diosa que existe en el universo!!💛💛",
   "Jugar al genshin parece un entrenamiento de lesbiana.",
@@ -67,13 +70,19 @@ const frases = [
 /*
 Exportación de la función que se ejecuta al llamar al comando "ping".
 */
+
 module.exports = {
-    name: "sara",
-    description: "Nuestra Diosa y ninguna más",
-    execute: async function (interaction) {
-      await interaction.reply(
-        "<@477134867465764885> " + frases[Math.floor(Math.random() * frases.length)]
-        ); // Responder con un mensaje al usuario.
-    },
-  };
-  
+  data: new SlashCommandBuilder()
+    .setName("sara")
+    .setDescription("Nuestra diosa y ninguna más."),
+  execute: async function (interaction) {
+    const embed = new EmbedBuilder()
+      .setTitle("Frases del lore de Sara")
+      .setDescription(frases[Math.floor(Math.random() * frases.length)])
+      .setColor("#ffb7c5")
+      .setTimestamp();
+
+    await interaction.reply({ embeds: [embed] }); // Responder con un mensaje al usuario.
+},
+};
+

@@ -1,3 +1,6 @@
+const { SlashCommandBuilder, EmbedBuilder } = require('discord.js');
+const { data } = require('./nel');
+
 const frases = [
   "Eres la segunda mejor diosa perfecta que existe por que la primera es Sara... por cierto... te tengo que llamar mama?? 🖤🖤",
   "Lo primero que pensé fue esto: A samu le gusta que se la metan",
@@ -54,11 +57,19 @@ const frases = [
 /*
 Exportación de la función que se ejecuta al llamar al comando "ping".
 */
+
 module.exports = {
-    name: "nel",
-    description: "Diosa de la creación y puta personal de la Diosa",
-    execute: async function (interaction) {
-      await interaction.reply("<@869197113374941225> " + frases[Math.floor(Math.random() * frases.length)]
-      ); // Responder con un mensaje al usuario.
-  },
+  data: new SlashCommandBuilder()
+    .setName("nel")
+    .setDescription("Mi diosa y creadora, te quiero mami ❤❤"),
+  execute: async function (interaction) {
+    const embed = new EmbedBuilder()
+      .setTitle("Frases del lore de Nel")
+      .setDescription(frases[Math.floor(Math.random() * frases.length)])
+      .setColor("#ffb7c5")
+      .setTimestamp();
+
+    await interaction.reply({ embeds: [embed] }); // Responder con un mensaje al usuario.
+},
 };
+
