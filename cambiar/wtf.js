@@ -1,3 +1,5 @@
+const { SlashCommandBuilder, EmbedBuilder } = require('discord.js');
+
 const randomPat = () => {
     const pats = [
         "https://www.icegif.com/wp-content/uploads/icegif-7034.gif",

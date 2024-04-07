@@ -1,3 +1,5 @@
+const { SlashCommandBuilder, EmbedBuilder } = require('discord.js');
+
 const randomPat = () => {
     const pats = [
         "https://media1.tenor.com/m/aZFqg65KvssAAAAC/pat-anime.gif",

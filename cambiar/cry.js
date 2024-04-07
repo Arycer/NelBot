@@ -1,3 +1,5 @@
+const { SlashCommandBuilder, EmbedBuilder } = require('discord.js');
+
 const randomPat = () => {
     const pats = [
         "https://gifdb.com/images/high/sad-anime-a-silent-voice-e0rz35qd5lqdcnqm.gif",

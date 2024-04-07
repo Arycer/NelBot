@@ -1,3 +1,5 @@
+const { SlashCommandBuilder, EmbedBuilder } = require('discord.js');
+
 const randomPat = () => {
     const pats = [
         "https://miro.medium.com/v2/resize:fit:640/1*r8vV_cJAqP5bQTCg5t0sfg.gif",

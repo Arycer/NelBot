@@ -1,3 +1,5 @@
+const { SlashCommandBuilder, EmbedBuilder } = require('discord.js');
+
 const randomPat = () => {
     const pats = [
         "https://i.pinimg.com/originals/2a/3a/02/2a3a020417deca849d7cb6218edf75fa.gif",
@@ -27,12 +29,39 @@ const randomPat = () => {
     return pats[Math.floor(Math.random() * pats.length)];
 }
 
-module.exports = {
-    name: 'blush',
-    description: 'Envía una imagen al canal',
+  module.exports = {
+    data: new SlashCommandBuilder()
+        .setName('blush')
+        .setDescription('Envía una imagen al canal')
+        .addUserOption(option =>
+            option.setName('usuario')
+                .setDescription('Usuario quien fue culpable de tu sonrojez')
+                .setRequired(true)
+            ),
+
     execute: async function (interaction) {
-        await interaction.reply(randomPat())
+        var usuario = interaction.user;
+        var usuarioMencionado = interaction.options.getUser('usuario');
+
+        var objetoUsuario = interaction.client.database.get(usuario.id);
+        if (!objetoUsuario) objetoUsuario = interaction.client.database.create(usuario.id, {
+            globalName: usuario.globalName,
+            abrazos: {}
+        });
+        if (!objetoUsuario.abrazos) objetoUsuario.abrazos = {};
+
+        objetoUsuario.abrazos[usuarioMencionado.id] = objetoUsuario.abrazos[usuarioMencionado.id] ? objetoUsuario.abrazos[usuarioMencionado.id] + 1 : 1;
+        objetoUsuario.save();
+
+        const embed = new EmbedBuilder()
+            .setTitle(`**${usuario.globalName}** se ha sonrojado por **${usuarioMencionado.globalName}**`)
+            .setDescription(`${usuario.globalName} se ha sonrojado ${objetoUsuario.abrazos[usuarioMencionado.id]} veces por ${usuarioMencionado.globalName}`)
+            .setImage(randomPat())
+            .setColor(0xffb7c5);
+
+        await interaction.reply({ embeds: [embed] })
         .then(() => console.log('Imagen enviada correctamente'))
         .catch(error => console.error('Error al enviar la imagen:', error));
       },
   };
+  
