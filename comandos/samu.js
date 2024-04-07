@@ -1,5 +1,5 @@
 const { SlashCommandBuilder, EmbedBuilder } = require('discord.js');
-const { data } = require('./samuel');
+const { data } = require('./samu');
 
 const frases = [
   "Para cuando el edredón con tus tetas para Nel?? 😋😋",
