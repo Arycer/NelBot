@@ -1,4 +1,5 @@
-const { SlashCommandBuilder } = require('discord.js');
+const { SlashCommandBuilder, EmbedBuilder } = require('discord.js');
+const { data } = require('./amelia');
 
 const frases = [
   "Pregunta seria... cual sera el siguente cosplay?? ✨",
@@ -9,18 +10,22 @@ const frases = [
   
 ]
 
-
 /*
 Exportación de la función que se ejecuta al llamar al comando "ping".
 */
+
 module.exports = {
-    data: new SlashCommandBuilder()
-      .setName("amelia")
-      .setDescription("Main Femboy?"),
-    description: "Main Femboy?",
+  data: new SlashCommandBuilder()
+     .setName("amelia")
+     .setDescription("Main Femboy?"),
     execute: async function (interaction) {
-      await interaction.reply("<@478195015680655404> " + frases[Math.floor(Math.random() * frases.length)]
-      ); // Responder con un mensaje al usuario.
-  },
+    const embed = new EmbedBuilder()
+        .setTitle("Frases del lore de Amelia")
+       .setDescription(frases[Math.floor(Math.random() * frases.length)])
+       .setColor("#FF0000")
+       .setTimestamp();
+         
+    await interaction.reply({ embeds: [embed] }); // Responder con un mensaje al usuario.
+},
 };
 
