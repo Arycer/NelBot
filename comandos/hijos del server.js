@@ -1,5 +1,5 @@
   const { SlashCommandBuilder, EmbedBuilder } = require('discord.js');
-  const { data } = require('./hijosdelserver');
+  const { data } = require('./hijos del server');
   
   const frases = [
     "Desgraciadamente sois todos unos adoptados, pero por si acaso hablarlo con Nel y Sara que son las mamis 🏛",
