@@ -19,7 +19,7 @@ module.exports = {
       .setDescription("Es Michel o Micheeel??"),
     execute: async function (interaction) {
       const embed = new EmbedBuilder()
-        .setTitle("Arycer")
+        .setTitle("Frases del lore de <@361147515673903116>")
         .setDescription(frases[Math.floor(Math.random() * frases.length)])
         .setColor("#FF0000")
         .setTimestamp();
