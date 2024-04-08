@@ -47,16 +47,16 @@ module.exports = {
         var objetoUsuario = interaction.client.database.get(usuario.id);
         if (!objetoUsuario) objetoUsuario = interaction.client.database.create(usuario.id, {
             globalName: usuario.globalName,
-            abrazos: {}
+            bailar: {}
         });
-        if (!objetoUsuario.abrazos) objetoUsuario.abrazos = {};
+        if (!objetoUsuario.bailar) objetoUsuario.bailar = {};
 
-        objetoUsuario.abrazos[usuarioMencionado.id] = objetoUsuario.abrazos[usuarioMencionado.id] ? objetoUsuario.abrazos[usuarioMencionado.id] + 1 : 1;
+        objetoUsuario.bailar[usuarioMencionado.id] = objetoUsuario.bailar[usuarioMencionado.id] ? objetoUsuario.bailar[usuarioMencionado.id] + 1 : 1;
         objetoUsuario.save();
 
         const embed = new EmbedBuilder()
             .setTitle(`**${usuario.globalName}** ha bailado con **${usuarioMencionado.globalName}**`)
-            .setDescription(`${usuario.globalName} ha bailado ${objetoUsuario.abrazos[usuarioMencionado.id]} veces con ${usuarioMencionado.globalName}`)
+            .setDescription(`${usuario.globalName} ha bailado ${objetoUsuario.bailar[usuarioMencionado.id]} veces con ${usuarioMencionado.globalName}`)
             .setImage(randomPat())
             .setColor(0xffb7c5);
 

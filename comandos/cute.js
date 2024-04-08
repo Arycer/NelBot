@@ -42,16 +42,16 @@ module.exports = {
         var objetoUsuario = interaction.client.database.get(usuario.id);
         if (!objetoUsuario) objetoUsuario = interaction.client.database.create(usuario.id, {
             globalName: usuario.globalName,
-            abrazos: {}
+            encariñar: {}
         });
-        if (!objetoUsuario.abrazos) objetoUsuario.abrazos = {};
+        if (!objetoUsuario.encariñar) objetoUsuario.encariñar = {};
 
-        objetoUsuario.abrazos[usuarioMencionado.id] = objetoUsuario.abrazos[usuarioMencionado.id] ? objetoUsuario.abrazos[usuarioMencionado.id] + 1 : 1;
+        objetoUsuario.encariñar[usuarioMencionado.id] = objetoUsuario.encariñar[usuarioMencionado.id] ? objetoUsuario.encariñar[usuarioMencionado.id] + 1 : 1;
         objetoUsuario.save();
 
         const embed = new EmbedBuilder()
             .setTitle(`**${usuario.globalName}** se ha puesto cariñosa con **${usuarioMencionado.globalName}**`)
-            .setDescription(`${usuario.globalName} se ha encariñado ${objetoUsuario.abrazos[usuarioMencionado.id]} veces con ${usuarioMencionado.globalName}`)
+            .setDescription(`${usuario.globalName} se ha encariñado ${objetoUsuario.encariñar[usuarioMencionado.id]} veces con ${usuarioMencionado.globalName}`)
             .setImage(randomPat())
             .setColor(0xffb7c5);
 
