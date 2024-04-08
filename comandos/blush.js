@@ -50,7 +50,7 @@ const randomPat = () => {
         });
         if (!objetoUsuario.sonrojado) objetoUsuario.sonrojado = {};
 
-        objetoUsuario.abrazos[usuarioMencionado.id] = objetoUsuario.sonrojado[usuarioMencionado.id] ? objetoUsuario.sonrojado[usuarioMencionado.id] + 1 : 1;
+        objetoUsuario.sonrojado[usuarioMencionado.id] = objetoUsuario.sonrojado[usuarioMencionado.id] ? objetoUsuario.sonrojado[usuarioMencionado.id] + 1 : 1;
         objetoUsuario.save();
 
         const embed = new EmbedBuilder()
