@@ -55,7 +55,7 @@ const randomPat = () => {
 
         const embed = new EmbedBuilder()
             .setTitle(`**${usuario.globalName}** se ha sonrojado por **${usuarioMencionado.globalName}**`)
-            .setDescription(`${usuario.globalName} se ha sonrojado ${objetoUsuario.abrazos[usuarioMencionado.id]} veces por ${usuarioMencionado.globalName}`)
+            .setDescription(`${usuario.globalName} se ha sonrojado ${objetoUsuario.sonrojado[usuarioMencionado.id]} veces por ${usuarioMencionado.globalName}`)
             .setImage(randomPat())
             .setColor(0xffb7c5);
 
