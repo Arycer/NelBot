@@ -46,7 +46,7 @@ module.exports = {
 
         const embed = new EmbedBuilder()
             .setTitle(`**${usuario.globalName}** ha mordido a **${usuarioMencionado.globalName}**`)
-            .setDescription(`${usuario.globalName} ha mordido ${objetoUsuario.mordeduras[usuarioMencionado.id]} veces a ${usuarioMencionado.globalName}`)
+            .setDescription(`${usuario.globalName} le ha dado ${objetoUsuario.mordeduras[usuarioMencionado.id]} mordiscos a ${usuarioMencionado.globalName}`)
             .setImage(randomPat())
             .setColor(0xffb7c5);
 

@@ -26,10 +26,36 @@ const randomPat = () => {
 }
 
 module.exports = {
-    name: 'cuddle',
-    description: 'Envía una imagen al canal',
+    data: new SlashCommandBuilder()
+        .setName('cuddle')
+        .setDescription('Envía una imagen al canal')
+        .addUserOption(option =>
+            option.setName('usuario')
+                .setDescription('Usuario con quien te acurrucas')
+                .setRequired(true)
+            ),
+
     execute: async function (interaction) {
-        await interaction.reply(randomPat())
+        var usuario = interaction.user;
+        var usuarioMencionado = interaction.options.getUser('usuario');
+
+        var objetoUsuario = interaction.client.database.get(usuario.id);
+        if (!objetoUsuario) objetoUsuario = interaction.client.database.create(usuario.id, {
+            globalName: usuario.globalName,
+            abrazos: {}
+        });
+        if (!objetoUsuario.abrazos) objetoUsuario.abrazos = {};
+
+        objetoUsuario.abrazos[usuarioMencionado.id] = objetoUsuario.abrazos[usuarioMencionado.id] ? objetoUsuario.abrazos[usuarioMencionado.id] + 1 : 1;
+        objetoUsuario.save();
+
+        const embed = new EmbedBuilder()
+            .setTitle(`**${usuario.globalName}** se ha acurrucado con **${usuarioMencionado.globalName}**`)
+            .setDescription(`${usuario.globalName} se ha acurrucado ${objetoUsuario.abrazos[usuarioMencionado.id]} veces con ${usuarioMencionado.globalName}`)
+            .setImage(randomPat())
+            .setColor(0xffb7c5);
+
+        await interaction.reply({ embeds: [embed] })
         .then(() => console.log('Imagen enviada correctamente'))
         .catch(error => console.error('Error al enviar la imagen:', error));
       },

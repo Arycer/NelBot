@@ -20,11 +20,38 @@ const randomPat = () => {
     return pats[Math.floor(Math.random() * pats.length)];
 }
 
+
 module.exports = {
-    name: 'slap',
-    description: 'Envía una imagen al canal',
+    data: new SlashCommandBuilder()
+        .setName('slap')
+        .setDescription('Envía una imagen al canal')
+        .addUserOption(option =>
+            option.setName('usuario')
+                .setDescription('Usuario al que quieres abofetear')
+                .setRequired(true)
+            ),
+
     execute: async function (interaction) {
-        await interaction.reply(randomPat())
+        var usuario = interaction.user;
+        var usuarioMencionado = interaction.options.getUser('usuario');
+
+        var objetoUsuario = interaction.client.database.get(usuario.id);
+        if (!objetoUsuario) objetoUsuario = interaction.client.database.create(usuario.id, {
+            globalName: usuario.globalName,
+            abrazos: {}
+        });
+        if (!objetoUsuario.abrazos) objetoUsuario.abrazos = {};
+
+        objetoUsuario.abrazos[usuarioMencionado.id] = objetoUsuario.abrazos[usuarioMencionado.id] ? objetoUsuario.abrazos[usuarioMencionado.id] + 1 : 1;
+        objetoUsuario.save();
+
+        const embed = new EmbedBuilder()
+            .setTitle(`**${usuario.globalName}** ha abofeteado a **${usuarioMencionado.globalName}**`)
+            .setDescription(`${usuario.globalName} le ha dado ${objetoUsuario.abrazos[usuarioMencionado.id]} bofetadas a ${usuarioMencionado.globalName}`)
+            .setImage(randomPat())
+            .setColor(0xffb7c5);
+
+        await interaction.reply({ embeds: [embed] })
         .then(() => console.log('Imagen enviada correctamente'))
         .catch(error => console.error('Error al enviar la imagen:', error));
       },
