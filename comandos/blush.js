@@ -46,11 +46,11 @@ const randomPat = () => {
         var objetoUsuario = interaction.client.database.get(usuario.id);
         if (!objetoUsuario) objetoUsuario = interaction.client.database.create(usuario.id, {
             globalName: usuario.globalName,
-            abrazos: {}
+            sonrojado: {}
         });
-        if (!objetoUsuario.abrazos) objetoUsuario.abrazos = {};
+        if (!objetoUsuario.sonrojado) objetoUsuario.abrazos = {};
 
-        objetoUsuario.abrazos[usuarioMencionado.id] = objetoUsuario.abrazos[usuarioMencionado.id] ? objetoUsuario.abrazos[usuarioMencionado.id] + 1 : 1;
+        objetoUsuario.abrazos[usuarioMencionado.id] = objetoUsuario.sonrojado[usuarioMencionado.id] ? objetoUsuario.sonrojado[usuarioMencionado.id] + 1 : 1;
         objetoUsuario.save();
 
         const embed = new EmbedBuilder()
