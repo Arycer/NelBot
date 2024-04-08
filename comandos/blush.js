@@ -48,7 +48,7 @@ const randomPat = () => {
             globalName: usuario.globalName,
             sonrojado: {}
         });
-        if (!objetoUsuario.sonrojado) objetoUsuario.abrazos = {};
+        if (!objetoUsuario.sonrojado) objetoUsuario.sonrojado = {};
 
         objetoUsuario.abrazos[usuarioMencionado.id] = objetoUsuario.sonrojado[usuarioMencionado.id] ? objetoUsuario.sonrojado[usuarioMencionado.id] + 1 : 1;
         objetoUsuario.save();
