@@ -62,7 +62,7 @@ const frases = [
   "QUITARMELO DEL MEDIOOO!!! Un negro me está siguiendo",
   "Chicos, no me gusta jugar a la ruleta. Solo puedes apostar al rojo o al negro, y ninguno de los dos me gusta.",
   "Me gustan los palestinos, me recuerdan al PetaZeta.",
-  
+  "Contexto: Un señor perdido en medio del bosque.\nSara: Oh, un señor con sed, me la pelas."
 
 ]
 
