@@ -3,7 +3,13 @@ const { data } = require('./paula');
 
 const frases = [
   "♡Las malas lenguas hablan, pero las buenas te dejan las piernas temblando♡",
-
+  "Me gustaria comerme un coño en mi vida antes de morir",
+  "Siempre me pregunte a que sabe un coño, Nel me dejas probarlo?",
+  "Me gusta el sabor de tu concha",
+  "Con esos fondos pareces gay, bueno en tu caso lesbiana",
+  "De que habla el maricon este?",
+  "Ara Araa~~",
+  "Moka-chan ga oshiete kureta ironna mita me ni nareru apurina ndatte dore dore...",
   
   
 ]
