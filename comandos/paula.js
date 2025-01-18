@@ -21,7 +21,7 @@ Exportación de la función que se ejecuta al llamar al comando "ping".
 module.exports = {
   data: new SlashCommandBuilder()
      .setName("paula")
-     .setDescription("novia de nel???"),
+     .setDescription("La mejor novia que ha podido tener Nel ♡"),
     execute: async function (interaction) {
     const embed = new EmbedBuilder()
         .setTitle("Frases del lore de Paula")
