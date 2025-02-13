@@ -10,7 +10,10 @@ const frases = [
   "De que habla el maricon este?",
   "Ara Araa~~",
   "Moka-chan ga oshiete kureta ironna mita me ni nareru apurina ndatte dore dore...",
-  
+  "Espera me esta hablando un negro, a no es cafelitoo",
+  "La capìtal de paris es roma verdad?",
+  "La comida de perro esta buena, ya no como de eso al menos por hoy",
+  "\nPaula: Tia me duele la tripa... \nNel: Te doy un mansaje?? \nPaula: Y mira que he cagado antes \n2 minutos despues \nPaula: Y creo que me estoy cagando otra vez"
   
 ]
 
